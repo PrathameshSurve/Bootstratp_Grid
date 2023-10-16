@@ -1,0 +1,49 @@
+/* Borders are hidden for better view. You can remove comments to see oulines of grid. */
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav h1{
+    font-weight: bold;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.row {
+    padding: 10px 0;
+   /* outline: 1px solid black; */
+   z-index: 10;
+}
+
+.col-2 {
+    /* outline: 1px black solid; */
+    z-index: 9;
+}
+
+.col-4{
+    /* outline:  solid 1px black; */
+    z-index: 8;
+}
+
+.styletext {
+text-align: center;
+background-color: #f0f0f0;
+padding: 20px; 
+border-radius: 10px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+font-size: 24px; 
+font-weight: bold; 
+color: #333; 
+}
