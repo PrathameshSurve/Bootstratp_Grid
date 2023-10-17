@@ -6,8 +6,17 @@
     box-sizing: border-box;
 }
 
+nav{
+    padding: 10px;
+}
+
 nav h1{
     font-weight: bold;
+}
+
+nav:hover{
+    background-color: #333;
+    color: antiquewhite;
 }
 
 img{
@@ -46,4 +55,13 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 font-size: 24px; 
 font-weight: bold; 
 color: #333; 
+}
+
+.styletext:hover{
+    box-shadow: 0 0 30px red;
+    color: rgb(202, 66, 66);
+}
+
+.para p{
+    background-color: rgb(219, 91, 108);
 }
