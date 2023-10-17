@@ -24,10 +24,18 @@ img{
     width: 100%;
 }
 
+img:hover{
+    border: 1px solid black;
+    padding: 10px;
+}
+
 p{
     padding: 10px;
     text-align: center;
-    margin: 5px;
+}
+
+p:hover{
+    border: 2px solid rgba(251, 255, 0, 0.897);
 }
 
 .row {
