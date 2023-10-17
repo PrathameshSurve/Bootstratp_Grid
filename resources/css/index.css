@@ -34,10 +34,6 @@ p{
     text-align: center;
 }
 
-p:hover{
-    border: 2px solid rgba(251, 255, 0, 0.897);
-}
-
 .row {
     padding: 10px 0;
    /* outline: 1px solid black; */
@@ -72,4 +68,8 @@ color: #333;
 
 .para p{
     background-color: rgb(219, 91, 108);
+}
+
+.para p:hover{
+    border: 2px solid rgba(251, 255, 0, 0.897);
 }
